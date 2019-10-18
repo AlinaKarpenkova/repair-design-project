@@ -1,0 +1,156 @@
+.main-container {
+    max-width: 1440px;
+    margin: 0px 82px;
+}
+
+header {
+    background-color: #131313;
+    height: 790px;
+
+    .header {
+        height: 83px;
+
+        .main-navbar {
+            margin: 0px 80px;
+
+            .navbar-item {
+                text-align: center;
+                color: white;
+                font-size: 14px;
+                text-decoration: none;
+
+                &:hover {
+                    color: #e3b873;
+                }
+
+
+            }
+
+        }
+
+        .main-logo {
+            width: 205px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #e3b873;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .call-btn {
+            width: 161px;
+            color: white;
+            font-size: 13px;
+            text-transform: uppercase;
+            height: 37px;
+            border-radius: 2px;
+            box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.2);
+            background-color: #e3b873;
+
+        }
+
+        .call-number {
+            width: 126px;
+            text-align: center;
+            color: #e3b873;
+            border-bottom: 1px solid #e3b873;
+            margin-right: 50px;
+            font-size: 14px;
+        }
+    }
+
+    .main-banner {
+        height: 707px;
+
+
+
+
+        .turnkey-repair-banner {
+            background-image: url("../images/turnkey-repair.png");
+            background-size: cover;
+            width: 100%;
+            padding-left: 60px;
+        }
+
+        .instagram {
+            margin-top: 175px;
+            margin-left: 14px;
+            width: 82px;
+            height: 707px;
+        }
+
+        .main-banner-header {
+            width: 676.1px;
+            height: 105px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.35;
+            letter-spacing: normal;
+            color: #ffffff;
+
+            .rostov-on-don-color {
+                color: #e3b873;
+            }
+
+        }
+
+        .main-banner-text {
+            width: 504px;
+            height: 89px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            font-size: 22px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.41;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+
+        .calculate-cost {
+            font-weight: bold;
+            font-size: 13px;
+            color: #ffffff;
+            width: 207px;
+            height: 51px;
+            border-radius: 2px;
+            box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.3);
+            background-color: #e3b873;
+            margin-right: 15px;
+        }
+
+        .submit-your-app {
+            width: 207px;
+            height: 51px;
+            border-radius: 2px;
+            border: solid 1px #ffffff;
+            font-size: 13px;
+            letter-spacing: normal;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+    }
+
+
+}
+
+.scroll-down {
+    font-size: 14px;
+    color: #ffffff;
+    width: 245px;
+    height: 95px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #131313;
+}
+
+.scroll-icon {
+    margin-left: 12px;
+}
