@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en, ru">
 
 <head>
     <meta charset="UTF-8">
@@ -58,64 +58,495 @@
 
     <main>
 
-        <div>
-            <div> <button class="scroll-down d-flex">scroll down</button>
-                <div class="scroll-icon">
-                    <a href="#">
-                        <img src="assets/images/btn-scroll-down.svg" alt="">
+        <section class="second-block">
+            <div>
+                <button class="scroll-down btn d-flex">scroll down</button>
+
+                <a href="#">
+                    <img src="assets/images/btn-scroll-down.svg" alt="">
+                </a>
+
+            </div>
+
+            <div class="navbar-nav d-flex align-items-center">
+                <nav>
+                    <a href="" class="navbar-item active">Rostov-on-Don, Admiral</a>
+                    <a href="" class="navbar-item">Sochi Thieves</a>
+                    <a href="" class="navbar-item">Rostov-on-Don Patriotic</a>
+                </nav>
+            </div>
+
+            <div class="project-section d-flex justify-content-center flex-column">
+                <div>
+                    <a href="">
+                        <img src="assets/images/Completed projects.svg" alt="">
                     </a>
+
+                    <p class="description">
+                        Only a small part of the work performed by our company is <br> presented on the site. For 14
+                        years on in the construction <br> market we have made happy more than 1000 families
+                    </p>
+                </div>
+
+                <div class="project-section-item">
+                    <h3>City:</h3>
+                    <p>Rostov-on-Don <br>LCD admiral</p>
+                </div>
+
+                <div class="project-section-item apartment_area">
+                    <h3>apartment area:</h3>
+                    <p>81 m2</p>
+                </div>
+
+                <div class="project-section-item repair_time">
+                    <h3>Repair time:</h3>
+                    <p>3.5 months</p>
+                </div>
+
+                <div class="project-section-item repair_cost">
+                    <h3>Repair Cost:</h3>
+                    <p>Upon request</p>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="slider-img d-flex">
+
+                    <div class="slider-img-item">
+                        <img src="./assets/images/slider1.jpg" alt="">
+                    </div>
+
+                    <div class="slider-img_item">
+                        <img src="./assets/images/slider2.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="online_control">
+                <p>online control</p>
+                <a href="">
+                    <img src="" alt="">
+                </a>
+            </div>
+
+
+        </section>
+        <section class="third_block">
+            <div class="video-section">
+                <a href="">
+                    <img src="assets/images/main-video.jpg" alt="">
+                </a>
+                <div class="play_arrow">
+                    <img src="assets/images/Group 8.svg" alt="">
                 </div>
             </div>
             <div>
-                <nav>Rostov-on-Don, Admiral</nav>
-                <nav>Sochi Thieves</nav>
-                <nav>Rostov-on-Don Patriotic</nav>
-            </div>
-        </div>
+                <p class="section__description">
+                    At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
+                    At any time,
+                    you can go to our website and monitor the progress of work in your <br> apartment. You can watch the
+                    live
+                    broadcast from one of our facilities!<br>
+                    Leave a request below and you will receive a link to the broadcast.
+                </p>
 
-        <div>
+                <div class="form-section-control d-flex flex-row justify-content-between align-items-center>
+                    <form action="" class=" form-control">
+
+                    <div class="form-section-control__item">
+                        <p class="input-title">Name</p>
+                        <input type="text" name="name" placeholder="What is your name:" pattern="[A-Za-z]{3,40}">
+                    </div>
+
+                    <div class="form-section-control__item">
+                        <p class="input-title">Phone</p>
+                        <input type="tel" name="tel" pattern="[0-9]{6,}" placeholder="Your phone number:">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Submit" class="button">
+                    </div>
+
+                    </form>
+
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <label class="check-form">
+                        <input type="checkbox" checked>
+                        <p class="checkbox__text">I agree to the processing of personal data</p>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="forth-block">
+
+            <div class="header-types d-flex flex-column text-center justify-content-center">
+                <h3>TYPES OF REPAIR</h3>
+                <img src="assets/images/instruments.svg" alt="">
+            </div>
+
+
+            <div class="types-of-repair d-flex flex-row justify-content-between align-items-center">
+
+
+                <div class="types-block">
+
+                    <div class="types-block__img">
+                        <img src="./assets/images/redecoraiting.svg" alt="">
+                    </div>
+
+                    <div class="types-block__description">
+                        <h4>Redecorating</h4>
+                        <ul>
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replacing doors</li>
+                        </ul>
+
+                        <button class="button btn">
+                            <span>from 900 rub / m2</span>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="types-block">
+                    <div class="types-block__img">
+                        <img src="./assets/images/overhaul.svg" alt="">
+                    </div>
+                    <div class="types-block__description">
+                        <h4>Overhaul</h4>
+                        <ul>
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replacing doors</li>
+                        </ul>
+                        <button class="button btn">
+                            <span>from 1800 rub / m2</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="types-block">
+                    <div class="types-block__img">
+                        <img src="./assets/images/designer-repair.svg" alt="">
+                    </div>
+                    <div class="types-block__description">
+                        <h4>Designer Repair</h4>
+                        <ul>
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replacing doors</li>
+                        </ul>
+                        <button class="button btn">
+                            <span>from 4000 rub / m2</span>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="fifth-block">
+            <div class="d-flex flex-row fifth-block-item justify-content-between">
+                <div>
+                    <img src="./assets/images/img_fifth_block.svg" alt="">
+                </div>
+
+                <div class="black-form">
+
+                    <form action="">
+
+                        <p class="form-title">Leave a request for free <br> departure of the measurer</p>
+
+                        <div class="black-form-item">
+                            <p class="input-title">Name</p>
+                            <input type="text" name="name" placeholder="What is your name:">
+
+                        </div>
+
+                        <div class="black-form-item">
+                            <p class="input-title">Phone</p>
+                            <input type="tel" name="tel" placeholder="Your phone number:">
+                        </div>
+
+                        <div class="black-form-item">
+                            <p class="input-title">Email</p>
+                            <input type="email" name="email" placeholder="Your email:">
+                        </div>
+
+                        <label class="check-form">
+                            <input type="checkbox" checked />
+                            <p class="checkbox__text">I agree to the processing of personal data</p>
+                        </label>
+
+                        <div class="button-wrapper">
+                            <input type="submit" value="Call the measurer" class="button btn">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="black-item d-flex justify-content-end">
+
+                <div>
+                    <img src="./assets/images/pig.svg" alt="">
+                </div>
+
+                <p class="black-text">
+                    Help save 10 - 20% of the <br>cost of materials
+                </p>
+
+            </div>
+        </section>
+
+        <section class="sixth-block d-flex ">
             <div>
-                <span> Completed projects</span>
+                <p>We realize your <br>
+                    wildest fantasies</p>
+
+                <ul>
+                    <li>
+                        <a href="#" class="active">American classic</a>
+                    </li>
+                    <li>
+                        <a href="#">Empire</a>
+                    </li>
+                    <li>
+                        <a href="#">Classical</a>
+                    </li>
+                    <li>
+                        <a href="#">Loft</a>
+                    </li>
+                    <li>
+                        <a href="#">Minimalism</a>
+                    </li>
+                    <li>
+                        <a href="#">Provence</a>
+                    </li>
+                    <li>
+                        <a href="#">Romanticism</a>
+                    </li>
+                    <li>
+                        <a href="#">Scandinavian style</a>
+                    </li>
+                    <li>
+                        <a href="#">Mediterranean style</a>
+                    </li>
+                    <li>
+                        <a href="#">High tech</a>
+                    </li>
+                    <li>
+                        <a href="#">Eclecticism</a>
+                    </li>
+                </ul>
             </div>
 
-            <div> <span>Only a small part of the work performed by our company is presented on the site. For 14 years on
-                    in the
-                    construction
-                    market we have made happy more than 1000 families</span>
+            <div class="photos d-flex">
+                <div class="d-flex flex-column">
+                    <img src="./assets/images/6block-img1.jpg" alt="">
+                    <img src="./assets/images/6-block_img2.svg" alt="">
+                </div>
+
+                <div class="d-flex flex-column">
+                    <img src="./assets/images/6-block-img3.svg" width="354" height="275" alt="">
+                    <img src="./assets/images/6block-img4.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="seventh-block">
+
+            <div class="main-container">
+                <div class="title d-flex align-items-center justify-content-center flex-column">
+                    <h3>design project</h3>
+
+                    <div>
+                        <img src="./assets/images/instruments.svg" alt="">
+                    </div>
+                </div>
+
+                <p class="description">
+                    Design project not only helps to make the repair of your apartment more modern,<br>
+                    but also significantly reduces the cost of materials and reduces the time of repair work.
+                </p>
+
+                <div class="d-flex flex-row justify-content-between">
+
+                    <div class="item-block">
+
+                        <div class="item-block__img">
+                            <img src="./assets/images/d-project1.jpg" alt="">
+                        </div>
+
+                        <div class="item-block__description">
+                            <h4>Mini</h4>
+                            <ul>
+                                <li>Measurement drawing</li>
+                                <li>Redevelopment</li>
+                                <li>Layout of furniture</li>
+                                <li>Plumbing plan. equipment</li>
+                            </ul>
+                            <button class="button btn">
+                                <span>150 rub / m2</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item-block">
+
+                        <div class="item-block__img">
+                            <img src="./assets/images/d-project2.jpg" alt="">
+                        </div>
+
+                        <div class="item-block__description">
+                            <h4>Standard</h4>
+                            <ul>
+                                <li>Measurement drawing</li>
+                                <li>Redevelopment</li>
+                                <li>Layout of furniture</li>
+                                <li>Plan of ceilings</li>
+                                <li>Floor Plan</li>
+                                <li>Electricians plan</li>
+                                <li>Lighting plan</li>
+                            </ul>
+                            <button class="button btn">
+                                <span>400 rub / m2</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item-block">
+
+                        <div class="item-block__img">
+                            <img src="./assets/images/d-project3.jpg" alt="repair3">
+                        </div>
+
+                        <div class="item-block__description">
+                            <h4>Full</h4>
+                            <ul>
+                                <li>Measurement drawing</li>
+                                <li>Redevelopment</li>
+                                <li>Layout of furniture</li>
+                                <li>Plan of ceilings</li>
+                                <li>Floor Plan</li>
+                                <li>Electricians plan</li>
+                                <li>Lighting plan</li>
+                                <li>Wall reamers</li>
+                                <li>3D visualization</li>
+                                <li>Bill of materials</li>
+                                <li>Departure for a selection of materials</li>
+                                <li>Furniture selection</li>
+                            </ul>
+                            <button class="button btn">
+                                <span>900 rub / m2</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div>
-                <span>
-                    <p>City:</p>
+            <div class="how-we-are-working main-container d-flex justify-content-between">
 
-                    <p>Rostov-on-Don
-                        LCD admiral</p>
-                </span>
+                <div class="info d-flex flex-column">
 
-                <span>
-                    <p>apartment area:</p>
-                    <p>81 m2</p>
-                </span>
+                    <div class="title">
+                        <p>How we are working</p>
+                        <span>6 steps to <br> the goal</span>
+                    </div>
 
-                <span>
-                    <p>Repair time:</p>
-                    <p>3.5 months</p>
-                </span>
+                    <div class="description-main">
+                        <p>1/6</p>
+                        <h5>Departure for <br> measurements premises</h5>
+                        <p>
+                            After your call, we go to you to consult and measure the premises of your
+                            apartment. During
+                            our meeting, you can ask absolutely any number of questions. An
+                            appraiser-appraiser leaves
+                            to measure the room.
+                        </p>
+                        <p>
+                            He will advise you on the issues of repair technology, apartment design, terms
+                            of repair of
+                            the apartment as a whole and its individual stages.
+                        </p>
+                    </div>
 
-                <span>
-                    <p>Repair Cost:</p>
-                    <p>Upon request</p>
-                </span>
 
+                </div>
+
+                <div class="how-working-items d-flex flex-column">
+                    <div class="items-col">
+
+                        <div class="top-col d-flex justify-content-between">
+
+                            <div class="slider-item">
+                                <span>01</span>
+                                <a href="#">Departure to <br>room measurements</a>
+                            </div>
+
+                            <div class="slider-item">
+                                <span>02</span>
+                                <a href="#">Compilation estimates</a>
+                            </div>
+
+                            <div class="slider-item">
+                                <span>03</span>
+                                <a href="#">Development <br>project design</a>
+                            </div>
+
+                        </div>
+
+                        <div class="bottom-col d-flex justify-content-between">
+
+                            <div class="slider-item">
+                                <span>04</span>
+                                <a href="#">Purchasing Supplies</a>
+                            </div>
+
+                            <div class="slider-item">
+                                <span>05</span>
+                                <a href="#">Repair finishing work</a>
+                            </div>
+
+                            <div class="slider-item">
+                                <span>06</span>
+                                <a href="#">Приемка-сдача<br> работ</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="slider-img_item">
+                        <img src="./assets/images/men.svg" alt="">
+                    </div>
+
+
+                </div>
             </div>
 
-        </div>
-
-        <div></div>
-
-        <div></div>
+        </section>
     </main>
-
     <footer></footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
