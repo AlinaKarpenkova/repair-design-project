@@ -326,10 +326,6 @@ header .main-banner .submit-your-app {
   letter-spacing: normal;
   color: #181818;
 }
-.forth-block .types-of-repair {
-  margin-left: 100px;
-  margin-right: 100px;
-}
 .forth-block .types-of-repair .types-block__description {
   width: 330px;
   height: 286px;
@@ -381,9 +377,6 @@ header .main-banner .submit-your-app {
 .fifth-block {
   margin-top: 300px;
 }
-.fifth-block .fifth-block-item {
-  width: 1340px;
-}
 .fifth-block .fifth-block-item img {
   width: 779px;
 }
@@ -391,10 +384,11 @@ header .main-banner .submit-your-app {
   color: #ffffff;
   padding: 28px 50px;
   background-color: #131313;
-  width: 515px;
+  width: 500px;
   height: 507.9px;
   border: solid 1px rgba(255, 255, 255, 0.01);
   margin-top: 75px;
+  margin-right: 82px;
 }
 .fifth-block .fifth-block-item .black-form form .form-title {
   text-align: center;
@@ -461,7 +455,7 @@ header .main-banner .submit-your-app {
 .fifth-block .black-item {
   display: flex;
   align-items: center;
-  margin-right: 330px;
+  margin-right: 240px;
 }
 .fifth-block .black-item .black-text {
   margin-left: 25px;
@@ -494,6 +488,7 @@ header .main-banner .submit-your-app {
   padding-bottom: 47px;
 }
 .sixth-block div:first-child li {
+  margin-left: -40px;
   padding-bottom: 25px;
   list-style-type: none;
 }
@@ -618,7 +613,6 @@ header .main-banner .submit-your-app {
 }
 .seventh-block .how-we-are-working {
   margin-top: 217px;
-  padding-bottom: 520px;
 }
 .seventh-block .how-we-are-working .info {
   width: 222px;
@@ -705,6 +699,273 @@ header .main-banner .submit-your-app {
   font-size: 15px;
   line-height: 18px;
   text-decoration: none;
+}
+
+.eighth-block {
+  background: linear-gradient(to bottom, black 25%, white 25%);
+}
+.eighth-block .our-team {
+  line-height: 1.41;
+  color: #ffffff;
+}
+.eighth-block .our-team p:last-child {
+  margin-top: 23px;
+  font-size: 16px;
+}
+.eighth-block .our-team p:first-child {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.eighth-block .team-members {
+  padding-top: 73px;
+}
+.eighth-block .team-members .designer {
+  padding-left: 106px;
+  padding-right: 106px;
+}
+.eighth-block .team-members .members-icon {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.eighth-block .team-members .members-info {
+  width: 233px;
+  text-align: center;
+  padding-left: 0;
+  padding-bottom: 52px;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 19px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+.eighth-block .team-members .members-info h4 {
+  font-family: YesevaOne;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.41;
+  color: #181818;
+}
+.eighth-block .team-members .members-info p {
+  font-family: FuturaC;
+  font-size: 16px;
+  line-height: 1.52;
+  color: #959595;
+}
+.eighth-block .team-members .members-info .experience {
+  width: 233px;
+  height: 44px;
+  background-color: #e3b873;
+  text-align: center;
+  padding-top: 13px;
+}
+.eighth-block .team-members .members-info .experience p {
+  font-family: YesevaOne;
+  font-size: 13px;
+  line-height: 1.52;
+  color: #ffffff;
+}
+.eighth-block .line {
+  padding-top: 100px;
+}
+.eighth-block .members-description {
+  text-align: center;
+  padding-top: 17px;
+}
+.eighth-block .our-clients-section {
+  padding-top: 90px;
+  padding-bottom: 350px;
+}
+.eighth-block .our-clients-section .title-section {
+  text-align: center;
+}
+.eighth-block .our-clients-section .title-section h3 {
+  text-transform: uppercase;
+}
+.eighth-block .our-clients-section .title-section img {
+  padding-top: 13px;
+}
+.eighth-block .our-clients-section .title-section p {
+  font-family: FuturaC;
+  font-size: 20px;
+  line-height: 1.41;
+  color: #363636;
+  padding-top: 28px;
+}
+.eighth-block .our-clients-section .item-block {
+  width: 376px;
+  height: 450px;
+  padding: 20px;
+  padding-bottom: 0;
+  align-items: center;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.eighth-block .our-clients-section .item-block .name {
+  font-family: YesevaOne;
+  font-size: 18px;
+  line-height: 1.29;
+  color: #181818;
+  padding-left: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -60px;
+}
+.eighth-block .our-clients-section .item-block .description {
+  font-family: "FuturaBookc";
+  font-size: 15px;
+  line-height: 180%;
+  color: #959595;
+  text-transform: lowercase;
+  padding-top: 22px;
+}
+.eighth-block .our-clients-section .item-block .button {
+  width: 293.8px;
+  height: 54px;
+  box-shadow: 5px 5px 20px 0 rgba(227, 184, 115, 0.5);
+  background-color: #e3b873;
+  margin-left: -20px;
+}
+.eighth-block .our-clients-section .item-block .button span {
+  font-family: YesevaOne;
+  font-size: 17px;
+  line-height: 1.41;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.eighth-block .our-clients-section .item-block .button:hover {
+  background-color: #959595;
+}
+.eighth-block .our-clients-section .item-block .button:hover .vertical-line {
+  border-right: 1px solid #ffffff;
+}
+
+.ninth-block {
+  background: linear-gradient(to bottom, white 25%, black 25%);
+}
+.ninth-block .last-form {
+  width: 878px;
+  height: 445px;
+  margin: -230px auto 0;
+  background-color: black;
+}
+.ninth-block .last-form .form-control {
+  padding-left: 160px;
+  padding-right: 160px;
+  background-color: black;
+  border: black;
+}
+.ninth-block .last-form .form-control .form-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: YesevaOne;
+  line-height: 1.41;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.ninth-block .last-form .form-control .form-section-control__item {
+  width: 100%;
+  margin-bottom: 48px;
+  background-color: black;
+}
+.ninth-block .last-form .form-control .form-section-control__item .input-title {
+  font-family: FuturaC;
+  font-size: 15px;
+  line-height: 1.41;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ninth-block .last-form .form-control .form-section-control__item input {
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid rgba(94, 93, 93, 0.3);
+}
+.ninth-block .last-form .form-control .form-section-control__item input :nth-child(3) {
+  border-width: 270px;
+}
+.ninth-block .last-form .form-control .form-section-control__item .name {
+  margin-right: 58px;
+}
+.ninth-block .last-form .form-control .check-form {
+  margin-bottom: 48px;
+  margin-left: 100px;
+}
+.ninth-block .last-form .form-control .check-form p {
+  font-family: FuturaC;
+  font-size: 16px;
+  line-height: 1.41;
+  color: #ffffff;
+}
+.ninth-block .last-form .form-control .button-wrapper {
+  margin-left: 170px;
+}
+.ninth-block .last-form .form-control .button-wrapper .button {
+  width: 200px;
+  height: 51px;
+  background-color: #e3b873;
+  font-size: 15px;
+  line-height: 1.76;
+  color: #ffffff;
+}
+.ninth-block .add-info {
+  margin-top: 50px;
+}
+.ninth-block .add-info p {
+  font-family: YesevaOne;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.41;
+  color: #e3b873;
+}
+.ninth-block .map {
+  margin-left: 254px;
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #131313;
+  height: 130px;
+}
+footer .main-navbar {
+  margin-top: 55px;
+}
+footer .main-navbar .navbar-item {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer .main-navbar .navbar-item:hover {
+  color: #e3b873;
+}
+footer .main-logo {
+  width: 205px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e3b873;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+footer .call-btn {
+  width: 161px;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  height: 37px;
+  border-radius: 2px;
+  box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.2);
+  background-color: #e3b873;
+  margin-top: 55px;
+}
+footer .call-number {
+  margin-top: 55px;
+  width: 126px;
+  text-align: center;
+  color: #e3b873;
+  border-bottom: 1px solid #e3b873;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
