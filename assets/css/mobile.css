@@ -51,7 +51,6 @@
     width: 107px;
     text-align: center;
     color: white;
-    margin-right: 50px;
     font-size: 10px;
   }
   header .main-banner {
@@ -264,6 +263,8 @@
     color: white;
     text-align: center;
     margin-top: 51px;
+    margin-left: 18px;
+    margin-right: 17px;
   }
   .third_block .form-section-control {
     padding-left: 18px;
