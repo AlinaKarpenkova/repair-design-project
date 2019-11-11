@@ -1,20 +1,24 @@
-@media (min-width: 376px) {
+@media (max-width: 375px) {
   .main-container {
-    max-width: 1440px;
-    margin: 0px 82px;
+    max-width: 350px;
+    margin: 0px 17px;
   }
 
   header {
     background-color: #131313;
-    height: 790px;
+    height: 476px;
   }
   header .header {
-    height: 83px;
+    height: 57px;
   }
   header .header .main-navbar {
     margin: 0px 80px;
+    visibility: hidden;
+    display: none !important;
   }
   header .header .main-navbar .navbar-item {
+    visibility: hidden;
+    display: none;
     text-align: center;
     color: white;
     font-size: 14px;
@@ -24,8 +28,8 @@
     color: #e3b873;
   }
   header .header .main-logo {
-    width: 205px;
-    font-size: 14px;
+    width: 150px;
+    font-size: 10px;
     font-weight: bold;
     color: #e3b873;
     text-decoration: none;
@@ -40,77 +44,75 @@
     border-radius: 2px;
     box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.2);
     background-color: #e3b873;
+    visibility: hidden;
+    display: none;
   }
   header .header .call-number {
-    width: 126px;
+    width: 107px;
     text-align: center;
-    color: #e3b873;
-    border-bottom: 1px solid #e3b873;
+    color: white;
     margin-right: 50px;
-    font-size: 14px;
+    font-size: 10px;
   }
   header .main-banner {
-    height: 707px;
+    height: 476px;
   }
   header .main-banner .turnkey-repair-banner {
-    background-image: url("../images/turnkey-repair.png");
+    background-image: url("../images/turnkey-repair2.png");
     background-size: cover;
-    width: 100%;
-    padding-left: 60px;
+    padding-left: 36px;
   }
   header .main-banner .instagram {
+    visibility: hidden;
+    display: none;
     padding-top: 175px;
     padding-left: 14px;
     width: 82px;
     height: 707px;
   }
   header .main-banner .main-banner-header {
-    width: 676.1px;
-    height: 105px;
+    width: 300px;
+    height: 60px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
+    font-size: 23px !important;
     text-transform: uppercase;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.35;
-    letter-spacing: normal;
+    line-height: 1.33;
     color: #ffffff;
+  }
+  header .main-banner .main-banner-header h1 {
+    font-size: 100%;
   }
   header .main-banner .main-banner-header .rostov-on-don-color {
     color: #e3b873;
   }
   header .main-banner .main-banner-text {
-    width: 504px;
-    height: 89px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 22px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    width: 300px;
+    height: 94px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-size: 16px;
     line-height: 1.41;
-    letter-spacing: normal;
     color: #ffffff;
   }
   header .main-banner .calculate-cost {
     font-weight: bold;
     font-size: 13px;
     color: #ffffff;
-    width: 207px;
+    width: 300px;
     height: 51px;
     border-radius: 2px;
     box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.3);
     background-color: #e3b873;
-    margin-right: 15px;
+    margin-right: 18px;
   }
   header .main-banner .submit-your-app {
-    width: 207px;
+    width: 300px;
     height: 51px;
     border-radius: 2px;
     border: solid 1px #ffffff;
     font-size: 13px;
-    letter-spacing: normal;
     color: #ffffff;
+    margin-top: 26px;
     font-weight: bold;
   }
   header .scroll-down {
@@ -120,6 +122,8 @@
     position: relative;
     background-color: #131313;
     margin-top: -47px;
+    visibility: hidden;
+    display: none;
   }
   header .scroll-down a {
     margin-left: 12px;
@@ -128,7 +132,7 @@
   .second-block {
     background-color: #131313;
     width: 100%;
-    height: 1000px;
+    height: 810px;
   }
   .second-block .navbar-nav {
     width: 700px;
@@ -150,15 +154,29 @@
   }
   .second-block .navbar-nav .active {
     color: #e3b873;
+    display: none;
+    visibility: hidden;
   }
   .second-block .project-section {
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 32px;
+    margin-top: 36px;
+  }
+  .second-block .project-section a {
+    align-items: center;
+    margin-left: 75px;
   }
   .second-block .project-section .description {
-    margin-top: 35px;
-    margin-bottom: 42px;
+    text-decoration: none;
+    margin-top: 22px;
+    text-align: center;
     color: white;
+    font-size: 13px;
+    height: 86px;
+    width: 311px;
+    margin-right: 32px;
+  }
+  .second-block .project-section .project-section-item {
+    margin-top: 350px;
   }
   .second-block .project-section .apartment_area {
     margin-left: 180px;
@@ -172,7 +190,7 @@
     margin-top: -65px;
   }
   .second-block .project-section h3 {
-    font-size: 18px;
+    font-size: 14px;
     color: #E3B873;
     text-transform: uppercase;
     margin-bottom: 8px;
@@ -180,110 +198,132 @@
   .second-block .project-section p {
     line-height: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
   }
   .second-block .slider-img {
     overflow: hidden;
-    margin-left: 593px;
-    margin-top: -380px;
+    width: 340px;
+    height: 241px;
+    margin-top: -470px;
+    margin-left: 18px;
   }
   .second-block .slider-img .slider-img-item {
     margin-right: 20px;
+    width: 340px;
+    height: 241px;
+  }
+  .second-block .slider-img img {
+    width: 340px;
+    height: 241px;
+  }
+  .second-block .slider-img .slider-img-item:first-child {
+    display: none;
+    visibility: hidden;
   }
   .second-block .online_control {
-    margin-left: 622px;
-    margin-top: 70px;
+    margin-left: 90px;
+    margin-top: 240px;
     text-transform: uppercase;
     font-size: 22px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.41;
-    letter-spacing: normal;
     color: #ffffff;
   }
+  .second-block .online_control img {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
 
-  .video-section {
-    width: 817px;
-    height: 430px;
+  .third_block {
+    background-color: #181818;
+  }
+  .third_block .video-section {
+    width: 340px;
+    height: 207px;
     overflow: hidden;
     margin: 0 auto;
-    margin-top: -217px;
+    padding-top: 40px;
   }
-  .video-section .play_arrow {
-    margin-left: 336px;
-    margin-top: -280px;
+  .third_block .video-section img {
+    width: 340px;
+    height: 207px;
+  }
+  .third_block .video-section .play_arrow {
+    margin-left: 150px;
+    margin-top: -140px;
     position: absolute;
   }
-
-  .section__description {
+  .third_block .video-section .play_arrow img {
+    width: 37px;
+    height: 37px;
+  }
+  .third_block .section__description {
     font-family: FuturaC;
     font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.76;
     letter-spacing: normal;
-    color: #363636;
+    color: white;
     text-align: center;
-    margin-top: 98px;
+    margin-top: 51px;
   }
-
-  .form-section-control {
-    padding-left: 400px;
-    width: 500px;
-    height: 300px;
-    padding-top: 90px;
+  .third_block .form-section-control {
+    padding-left: 18px;
+    width: 330px;
+    height: 330px;
+    flex-flow: column !important;
   }
-  .form-section-control div {
+  .third_block .form-section-control div:nth-child(2) {
+    margin-top: -70px;
+  }
+  .third_block .form-section-control div {
     margin-right: 35px;
   }
-  .form-section-control .input-title {
+  .third_block .form-section-control .input-title {
     font-size: 15px;
     color: rgba(54, 54, 54, 0.5);
   }
-  .form-section-control input:not([type=checkbox]) {
+  .third_block .form-section-control input:not([type=checkbox]) {
     width: 230px;
     padding: 8px 0;
-    font-size: 16px;
-    color: #363636;
+    font-size: 18px;
+    color: white;
+    background-color: #181818;
     border: none;
-    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    border-bottom: 1px solid white;
   }
-  .form-section-control input:not([type=checkbox])::placeholder {
-    color: #363636;
+  .third_block .form-section-control input:not([type=checkbox])::placeholder {
+    color: white;
   }
-  .form-section-control input.button {
-    width: 200px;
-    height: 50px;
+  .third_block .form-section-control input.button {
+    width: 340px;
+    height: 60px;
     font-size: 15px;
     color: #ffffff;
     border: 2px solid #E3B873;
     background-color: #E3B873;
     box-sizing: border-box;
-    margin-top: 31px;
+    margin-top: -30px;
+    position: absolute;
   }
-  .form-section-control input.button:hover {
+  .third_block .form-section-control input.button:hover {
     border: 1px solid #363636;
     color: #131313;
   }
-
-  .check-form {
+  .third_block .check-form {
     margin-top: -100px;
   }
-  .check-form input[type=checkbox]:checked,
-.check-form input[type=checkbox]:not(:checked) {
+  .third_block .check-form input[type=checkbox]:checked,
+.third_block .check-form input[type=checkbox]:not(:checked) {
     position: absolute;
     left: -9999px;
   }
-  .check-form input[type=checkbox]:checked + p,
-.check-form input[type=checkbox]:not(:checked) + p {
+  .third_block .check-form input[type=checkbox]:checked + p,
+.third_block .check-form input[type=checkbox]:not(:checked) + p {
     display: inline-block;
     position: relative;
     padding-left: 28px;
     cursor: pointer;
   }
-  .check-form .checkbox__text:before {
+  .third_block .check-form .checkbox__text:before {
     content: "";
     position: absolute;
     left: 0px;
@@ -292,8 +332,8 @@
     width: 18px;
     height: 18px;
   }
-  .check-form input[type=checkbox]:checked + p:after,
-.check-form input[type=checkbox]:not(:checked) + p:after {
+  .third_block .check-form input[type=checkbox]:checked + p:after,
+.third_block .check-form input[type=checkbox]:not(:checked) + p:after {
     content: "";
     position: absolute;
     transition: all 0.2s ease;
@@ -306,12 +346,14 @@
     border-bottom: 2px solid #fff;
     transform: rotate(-45deg);
   }
-  .check-form input[type=checkbox]:not(:checked) + p:after {
+  .third_block .check-form input[type=checkbox]:not(:checked) + p:after {
     opacity: 0;
   }
-  .check-form p {
+  .third_block .check-form p {
     font-size: 16px;
     margin-left: 8px;
+    color: white;
+    margin-top: 30px;
   }
 
   .forth-block .header-types {
@@ -327,16 +369,22 @@
     letter-spacing: normal;
     color: #181818;
   }
-  .forth-block .types-of-repair .types-block__description {
+  .forth-block .types-of-repair {
+    flex-flow: column !important;
+  }
+  .forth-block .types-of-repair .types-block {
+    padding-bottom: 177px;
+    width: 331px;
+  }
+  .forth-block .types-of-repair .types-block .types-block__description {
     width: 330px;
     height: 286px;
     box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.03);
     background-color: #ffffff;
     margin-top: -100px;
     position: absolute;
-    margin-left: 30px;
   }
-  .forth-block .types-of-repair .types-block__description h4 {
+  .forth-block .types-of-repair .types-block .types-block__description h4 {
     margin-left: 22px;
     font-family: YesevaOne;
     font-size: 18px;
@@ -347,7 +395,7 @@
     letter-spacing: normal;
     color: #363636;
   }
-  .forth-block .types-of-repair .types-block__description li {
+  .forth-block .types-of-repair .types-block .types-block__description li {
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
@@ -356,14 +404,14 @@
     letter-spacing: normal;
     color: #959595;
   }
-  .forth-block .types-of-repair .types-block__description .button {
+  .forth-block .types-of-repair .types-block .types-block__description .button {
     width: 228px;
     height: 54px;
     box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.3);
     background-color: #e3b873;
     margin-top: 25px;
   }
-  .forth-block .types-of-repair .types-block__description .button span {
+  .forth-block .types-of-repair .types-block .types-block__description .button span {
     text-transform: uppercase;
     font-family: YesevaOne;
     font-size: 18px;
@@ -376,6 +424,8 @@
   }
 
   .fifth-block {
+    display: none;
+    visibility: hidden;
     margin-top: 300px;
   }
   .fifth-block .fifth-block-item img {
@@ -467,28 +517,26 @@
   }
 
   .sixth-block {
-    background-image: url("../images/bg-sixth-block.svg");
-    height: 864px;
-    width: 100%;
-    margin-top: 242px;
+    height: 330px;
+    margin-top: 75px;
+    flex-flow: column;
+    background: linear-gradient(to bottom, white 65%, #181818 35%);
   }
   .sixth-block div:first-child {
-    padding-top: 137px;
-    margin-left: 99px;
+    text-align: center;
+    width: 340px;
+    height: 66px;
   }
   .sixth-block div:first-child p {
     text-transform: uppercase;
     font-family: YesevaOne;
     font-size: 27px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.41;
-    letter-spacing: normal;
     color: #e3b873;
-    padding-bottom: 47px;
   }
   .sixth-block div:first-child li {
+    display: none;
+    visibility: hidden;
     margin-left: -40px;
     padding-bottom: 25px;
     list-style-type: none;
@@ -510,16 +558,27 @@
     text-decoration: underline;
   }
   .sixth-block .photos {
-    margin-left: 125px;
+    width: 340px;
+    height: 242px;
+    margin-left: 18px;
+    margin-top: 24px;
   }
   .sixth-block .photos div:first-child {
-    padding-right: 43px;
+    width: 340px;
+    height: 242px;
   }
   .sixth-block .photos div:first-child img:first-child {
-    margin-top: -180px;
+    width: 340px;
+    height: 242px;
   }
   .sixth-block .photos div:first-child img:last-child {
+    display: none;
+    visibility: hidden;
     padding-top: 40px;
+  }
+  .sixth-block .photos div:last-child {
+    display: none;
+    visibility: hidden;
   }
   .sixth-block .photos div:last-child img:first-child {
     margin-top: -120px;
@@ -529,28 +588,25 @@
   }
 
   .seventh-block {
-    background: linear-gradient(to bottom, white 25%, black 25%);
+    height: 2300px;
+    background-color: #181818;
   }
   .seventh-block .title {
-    padding-top: 112px;
+    padding-top: 52px;
   }
   .seventh-block .title h3 {
     text-transform: uppercase;
     font-family: YesevaOne;
     font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.41;
-    letter-spacing: normal;
-    color: #181818;
+    color: white;
   }
   .seventh-block .description {
     padding-bottom: 40px;
     font-family: FuturaC;
     font-size: 20px;
     line-height: 1.41;
-    color: #363636;
+    color: white;
     text-align: center;
     padding-top: 24px;
   }
@@ -563,28 +619,41 @@
     padding-top: 25px;
     padding-left: 34px;
   }
-  .seventh-block .item-block:nth-child(2) {
-    padding-right: 30px;
-    padding-left: 30px;
+  .seventh-block .projects {
+    flex-flow: column !important;
   }
-  .seventh-block .item-block__description {
+  .seventh-block .projects div:first-child {
+    margin-bottom: 115px;
+  }
+  .seventh-block .projects div:nth-child(2) {
+    margin-bottom: 150px;
+  }
+  .seventh-block .projects div:last-child {
+    margin-bottom: 195px;
+  }
+  .seventh-block .projects .item-block img {
+    width: 340px;
+    height: 366px;
+  }
+  .seventh-block .projects .item-block .item-block__description {
     width: 330px;
     box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.03);
     background-color: #ffffff;
-    margin-top: -100px;
+    margin-top: -250px;
     position: absolute;
-    margin-left: 30px;
   }
-  .seventh-block .item-block:first-child {
+  .seventh-block .projects .item-block .item-block:first-child {
     height: 211px;
   }
-  .seventh-block .item-block:nth-child(2) {
+  .seventh-block .projects .item-block .item-block:nth-child(2) {
     height: 286px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
-  .seventh-block .item-block:last-child {
+  .seventh-block .projects .item-block .item-block:last-child {
     height: 414px;
   }
-  .seventh-block li {
+  .seventh-block .projects .item-block li {
     font-family: FuturaC;
     font-size: 15px;
     font-weight: normal;
@@ -594,14 +663,14 @@
     letter-spacing: normal;
     color: #959595;
   }
-  .seventh-block .button {
+  .seventh-block .projects .item-block .button {
     width: 228px;
     height: 54px;
     box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.3);
     background-color: #e3b873;
     margin-bottom: -25px;
   }
-  .seventh-block .button span {
+  .seventh-block .projects .item-block .button span {
     text-transform: uppercase;
     font-family: YesevaOne;
     font-size: 18px;
@@ -613,7 +682,9 @@
     color: #ffffff;
   }
   .seventh-block .how-we-are-working {
-    margin-top: 217px;
+    margin-top: 52px;
+    display: none;
+    visibility: hidden;
   }
   .seventh-block .how-we-are-working .info {
     width: 222px;
@@ -635,6 +706,10 @@
     text-transform: uppercase;
     color: #FFFFFF;
   }
+  .seventh-block .how-we-are-working .info .description-main {
+    display: none;
+    visibility: hidden;
+  }
   .seventh-block .how-we-are-working .info .description-main p {
     margin-bottom: 15px;
     font-size: 15px;
@@ -647,18 +722,26 @@
     font-size: 18px;
   }
   .seventh-block .how-we-are-working .info h5 {
+    display: none;
+    visibility: hidden;
     font-size: 15px;
     line-height: 23px;
     text-transform: uppercase;
     color: #E3B873;
     margin: 22px 0 10px;
+    display: none;
+    visibility: hidden;
   }
   .seventh-block .how-we-are-working .info p {
+    display: none;
+    visibility: hidden;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
   }
   .seventh-block .how-working-items {
+    display: none;
+    visibility: hidden;
     padding-top: 130px;
   }
   .seventh-block .how-working-items .items-col {
@@ -677,6 +760,8 @@
     color: #ffffff;
     opacity: 0.3;
     transition: all 0.3s;
+    display: none;
+    visibility: hidden;
   }
   .seventh-block .how-working-items .items-col .slider-item span {
     font-size: 15px;
@@ -703,13 +788,14 @@
   }
 
   .eighth-block {
-    background: linear-gradient(to bottom, black 25%, white 25%);
+    background-color: #181818;
   }
   .eighth-block .our-team {
     line-height: 1.41;
     color: #ffffff;
   }
   .eighth-block .our-team p:last-child {
+    text-align: center;
     margin-top: 23px;
     font-size: 16px;
   }
@@ -719,10 +805,15 @@
   }
   .eighth-block .team-members {
     padding-top: 73px;
+    flex-flow: column !important;
+    padding-left: 53px;
+  }
+  .eighth-block .team-members .dima {
+    overflow: cover;
   }
   .eighth-block .team-members .designer {
-    padding-left: 106px;
-    padding-right: 106px;
+    padding-top: 165px;
+    padding-bottom: 165px;
   }
   .eighth-block .team-members .members-icon {
     position: absolute;
@@ -731,6 +822,7 @@
   }
   .eighth-block .team-members .members-info {
     width: 233px;
+    height: 137px;
     text-align: center;
     padding-left: 0;
     padding-bottom: 52px;
@@ -772,8 +864,12 @@
   .eighth-block .members-description {
     text-align: center;
     padding-top: 17px;
+    display: none;
+    visibility: hidden;
   }
   .eighth-block .our-clients-section {
+    display: none;
+    visibility: hidden;
     padding-top: 90px;
     padding-bottom: 350px;
   }
@@ -841,25 +937,20 @@
   }
 
   .ninth-block {
-    background: linear-gradient(to bottom, white 25%, black 25%);
+    background-color: #181818;
   }
   .ninth-block .last-form {
-    width: 878px;
-    height: 445px;
-    margin: -230px auto 0;
-    background-color: black;
+    width: 370px;
+    height: 619px;
+    background-color: #181818;
   }
   .ninth-block .last-form .form-control {
-    padding-left: 160px;
-    padding-right: 160px;
-    background-color: black;
-    border: black;
-  }
-  .ninth-block .last-form .form-control .form-section-control__item-questions {
-    margin-bottom: 50px;
+    background-color: #181818;
+    border: #181818;
+    padding-top: 76px;
   }
   .ninth-block .last-form .form-control .form-section-control__item-questions input {
-    background-color: black;
+    background-color: #181818;
     border: none;
     border-bottom: 1px solid rgba(94, 93, 93, 0.3);
     color: white;
@@ -873,31 +964,39 @@
     text-align: center;
     padding-bottom: 25px;
   }
-  .ninth-block .last-form .form-control .form-section-control__item {
+  .ninth-block .last-form .form-control .wr-item {
+    flex-flow: column !important;
+  }
+  .ninth-block .last-form .form-control .wr-item .form-section-control__item {
     width: 100%;
     margin-bottom: 48px;
-    background-color: black;
+    background-color: #181818;
   }
-  .ninth-block .last-form .form-control .form-section-control__item .input-title {
+  .ninth-block .last-form .form-control .wr-item .form-section-control__item .input-title {
     font-family: FuturaC;
     font-size: 15px;
     line-height: 1.41;
     color: rgba(255, 255, 255, 0.5);
   }
-  .ninth-block .last-form .form-control .form-section-control__item input {
-    background-color: black;
+  .ninth-block .last-form .form-control .wr-item .form-section-control__item input {
+    color: #181818;
+  }
+  .ninth-block .last-form .form-control .wr-item input {
+    color: white;
+    background-color: #181818;
     border: none;
     border-bottom: 1px solid rgba(94, 93, 93, 0.3);
   }
-  .ninth-block .last-form .form-control .form-section-control__item input :nth-child(3) {
+  .ninth-block .last-form .form-control .wr-item input :nth-child(3) {
     border-width: 270px;
   }
-  .ninth-block .last-form .form-control .form-section-control__item .name {
+  .ninth-block .last-form .form-control .wr-item .name {
     margin-right: 58px;
   }
   .ninth-block .last-form .form-control .check-form {
+    margin-top: 23px;
     margin-bottom: 48px;
-    margin-left: 100px;
+    width: 330px;
   }
   .ninth-block .last-form .form-control .check-form p {
     font-family: FuturaC;
@@ -905,11 +1004,8 @@
     line-height: 1.41;
     color: #ffffff;
   }
-  .ninth-block .last-form .form-control .button-wrapper {
-    margin-left: 170px;
-  }
   .ninth-block .last-form .form-control .button-wrapper .button {
-    width: 200px;
+    width: 340px;
     height: 51px;
     background-color: #e3b873;
     font-size: 15px;
@@ -917,7 +1013,7 @@
     color: #ffffff;
   }
   .ninth-block .add-info {
-    margin-top: 50px;
+    margin-top: 250px;
   }
   .ninth-block .add-info p {
     font-family: YesevaOne;
@@ -927,11 +1023,18 @@
     color: #e3b873;
   }
   .ninth-block .map {
-    margin-left: 254px;
-    margin-top: 25px;
+    margin-left: 18px;
+    margin-top: 46px;
+  }
+  .ninth-block .map img {
+    width: 340px;
+    height: 255px;
+    margin-top: -610px;
   }
 
   footer {
+    display: none;
+    visibility: hidden;
     background-color: #131313;
     height: 130px;
   }
@@ -979,4 +1082,4 @@
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=mobile.css.map */
